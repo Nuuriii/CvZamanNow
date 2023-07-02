@@ -6,7 +6,7 @@ function Navbar() {
    const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
    return (
-      <div className='flex items-center justify-between px-5 py-8 bg-green-700 border-b '>
+      <div className='flex items-center justify-between py-8 bg-green-700 border-b px-7 '>
          <a href='/'>
             <img src={Icon} alt='logo' />
          </a>
