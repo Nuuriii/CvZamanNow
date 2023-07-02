@@ -1,3 +1,9 @@
+import Navbar from "./Navbar/Navbar";
+
 export default function LandingPage() {
-   return <div className='text-2xl text-red-900'>LandingPage</div>;
+   return (
+      <div>
+         <Navbar />
+      </div>
+   );
 }
