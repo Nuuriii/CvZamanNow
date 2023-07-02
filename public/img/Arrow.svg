@@ -1,0 +1,22 @@
+<svg width="565" height="336" viewBox="0 0 565 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="515.832" y="12" width="13.7203" height="69.0588" transform="rotate(45 515.832 12)" fill="#469364"/>
+<rect x="564.862" y="61.0576" width="13.7203" height="69.0588" transform="rotate(135 564.862 61.0576)" fill="#469364"/>
+<rect x="522.338" y="130.909" width="13.7203" height="102.445" transform="rotate(-180 522.338 130.909)" fill="#469364"/>
+<rect x="43.4951" y="211" width="12.2208" height="61.5116" transform="rotate(45 43.4951 211)" fill="#FFA824"/>
+<rect x="87.167" y="254.696" width="12.2208" height="61.5116" transform="rotate(135 87.167 254.696)" fill="#FFA824"/>
+<rect x="49.291" y="316.914" width="12.2209" height="91.249" transform="rotate(-180 49.291 316.914)" fill="#FFA824"/>
+<rect x="94.9487" width="5.605" height="28.2118" transform="rotate(45 94.9487 0)" fill="#3D6E65"/>
+<rect x="114.979" y="20.041" width="5.605" height="28.2118" transform="rotate(135 114.979 20.041)" fill="#3D6E65"/>
+<rect x="97.6069" y="48.5762" width="5.605" height="41.8506" transform="rotate(-180 97.6069 48.5762)" fill="#3D6E65"/>
+<rect x="486.949" y="287" width="5.605" height="28.2118" transform="rotate(45 486.949 287)" fill="#3D6E65"/>
+<rect x="506.979" y="307.041" width="5.605" height="28.2118" transform="rotate(135 506.979 307.041)" fill="#3D6E65"/>
+<rect x="489.607" y="335.576" width="5.605" height="41.8506" transform="rotate(-180 489.607 335.576)" fill="#3D6E65"/>
+<g clip-path="url(#clip0_31376_2018)">
+<path d="M387 63.9097V268.091C386.976 271.067 385.783 273.915 383.677 276.019C381.571 278.122 378.722 279.313 375.746 279.334H194.254C191.271 279.334 188.41 278.15 186.3 276.041C184.19 273.933 183.003 271.074 183 268.091V63.9097C183.024 60.9333 184.217 58.0857 186.323 55.9821C188.429 53.8785 191.278 52.6877 194.254 52.667H375.746C381.957 52.667 387 57.699 387 63.9097ZM364.333 75.3337H205.667V256.667H364.333V75.3337ZM276.987 178.705L325.075 130.629L341.1 146.654L276.987 210.767L232.901 166.68L248.937 150.655L276.987 178.705Z" fill="#469364"/>
+</g>
+<defs>
+<clipPath id="clip0_31376_2018">
+<rect width="272" height="272" fill="white" transform="translate(149 30)"/>
+</clipPath>
+</defs>
+</svg>
