@@ -16,7 +16,7 @@ function Content2() {
                Now.
             </p>
             <button className='flex items-center justify-center gap-1 py-3 font-semibold text-white w-44 px-11 bg-amber-500'>
-               <span>Selengkanya</span>
+               <span>Selengkapnya</span>
                <img src={ArrowRight} alt='kk' />
             </button>
          </div>
