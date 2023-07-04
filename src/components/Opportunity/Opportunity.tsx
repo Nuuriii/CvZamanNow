@@ -3,7 +3,7 @@ import ArrowRight from "/img/ArrowRight.svg";
 
 export default function Opportunity() {
    return (
-      <div className='flex flex-col items-center justify-center sm:flex-row sm:gap-8 py-9 px-7 gap-y-9 lg:py-10'>
+      <div className='flex flex-col items-center justify-center sm:flex-row sm:gap-8 py-9 px-7 gap-y-9 lg:pt-10 lg:pb-5'>
          <div className='flex justify-center lg:w-1/2'>
             <img className='lg:h-96 lg:w-96' src={Image} alt='' />
          </div>

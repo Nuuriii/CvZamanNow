@@ -3,12 +3,12 @@ import ArrowRight from "/img/ArrowRight.svg";
 
 export default function ImproveCareer() {
    return (
-      <div className='container py-8 px-7'>
-         <div className='flex flex-col gap-y-5'>
-            <h1 className='text-4xl font-semibold'>
+      <div className='flex flex-col items-center justify-center py-8 lg:pt-4 lg:pb-3 sm:gap-10 px-7 gap-y-10 sm:flex-row'>
+         <div className='flex flex-col justify-center gap-y-5 lg:w-1/2'>
+            <h1 className='text-4xl font-semibold lg:text-5xl'>
                Buat CV dengan template menarik
             </h1>
-            <p>
+            <p className='lg:text-lg'>
                Kami menyediakan berbagai template modern dan dapat disesuaikan
                dengan kebutuhanmu.
             </p>
@@ -17,8 +17,8 @@ export default function ImproveCareer() {
                <img src={ArrowRight} alt='kk' />
             </button>
          </div>
-         <div>
-            <img src={UpImage} alt='' />
+         <div className='flex justify-center'>
+            <img className='lg:h-96 lg:w-96' src={UpImage} alt='' />
          </div>
       </div>
    );
