@@ -30,15 +30,15 @@ export default function ImproveCareer() {
                </div>
                <div className='flex gap-3'>
                   <div className='flex items-start gap-3'>
-                     <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full'>
+                     <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full lg:text-lg'>
                         02
                      </span>
                   </div>
                   <div className='flex flex-col items-start pt-1 gap-y-1'>
-                     <h3 className='text-lg font-semibold text-green-950'>
+                     <h3 className='text-lg font-semibold lg:text-xl text-green-950'>
                         Profil yang selalu up-to-date
                      </h3>
-                     <p>
+                     <p className='lg:text-xl'>
                         Membantu pengguna untuk mengatur dan memperbarui
                         informasi CV secara mudah.
                      </p>
@@ -46,15 +46,15 @@ export default function ImproveCareer() {
                </div>
                <div className='flex gap-3'>
                   <div className='flex items-start gap-3'>
-                     <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full'>
+                     <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full lg:text-lg'>
                         03
                      </span>
                   </div>
                   <div className='flex flex-col items-start pt-1 gap-y-1'>
-                     <h3 className='text-lg font-semibold text-green-950'>
+                     <h3 className='text-lg font-semibold lg:text-xl text-green-950'>
                         Mudah Digunakan
                      </h3>
-                     <p>
+                     <p className='lg:text-lg'>
                         Mempermudah pengguna untuk membuat CV yang menarik dan
                         profesional.
                      </p>
