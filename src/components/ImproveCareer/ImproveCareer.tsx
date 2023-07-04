@@ -1,14 +1,14 @@
 export default function ImproveCareer() {
    return (
       <div className='pt-10 px-7'>
-         <div>
+         <div className='flex flex-col'>
             <div className='py-5'>
                <h1 className='text-3xl font-semibold'>
                   Tingkatkan kariermu ke level selanjutnya
                </h1>
             </div>
             <div className='flex flex-col gap-4'>
-               <div className='flex justify-center gap-3'>
+               <div className='flex gap-3'>
                   <div className='flex items-start gap-3'>
                      <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full'>
                         01
@@ -23,7 +23,7 @@ export default function ImproveCareer() {
                      </p>
                   </div>
                </div>
-               <div className='flex justify-center gap-3'>
+               <div className='flex gap-3'>
                   <div className='flex items-start gap-3'>
                      <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full'>
                         02
@@ -39,7 +39,7 @@ export default function ImproveCareer() {
                      </p>
                   </div>
                </div>
-               <div className='flex justify-center gap-3'>
+               <div className='flex gap-3'>
                   <div className='flex items-start gap-3'>
                      <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full'>
                         03
