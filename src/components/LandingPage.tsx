@@ -1,7 +1,7 @@
 import Navbar from "./Navbar/Navbar";
 import GetStarted from "./GetStarted/GetStarted";
 import Opportunity from "./Opportunity/Opportunity";
-import ImproveCareer from "./ImproveCareer/ImproveCareer";
+import ImproveCareer from "./Interesting/Interesting";
 
 export default function LandingPage() {
    return (
