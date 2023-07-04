@@ -1,7 +1,7 @@
 import Image from "/img/Arrow.svg";
 import ArrowRight from "/img/ArrowRight.svg";
 
-function Content2() {
+export default function Opportunity() {
    return (
       <div className='flex flex-col items-center justify-center sm:flex-row sm:gap-8 py-9 px-7 gap-y-9 lg:py-10'>
          <div className='flex justify-center lg:w-1/2'>
@@ -23,5 +23,3 @@ function Content2() {
       </div>
    );
 }
-
-export default Content2;

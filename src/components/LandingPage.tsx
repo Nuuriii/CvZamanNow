@@ -1,6 +1,6 @@
 import Navbar from "./Navbar/Navbar";
 import Content1 from "./Content1/Content1";
-import Content2 from "./Content2/Content2";
+import Content2 from "./Opportunity/Opportunity";
 
 export default function LandingPage() {
    return (
