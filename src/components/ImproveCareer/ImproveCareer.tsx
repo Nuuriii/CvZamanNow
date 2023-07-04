@@ -1,24 +1,29 @@
+import PaperImage from "/img/Paper.svg";
+
 export default function ImproveCareer() {
    return (
-      <div className='pt-10 px-7'>
+      <div className='pt-10 pb-6 px-7 sm:flex sm:items-center sm:gap-8'>
+         <div className='hidden md:flex'>
+            <img className='lg:h-96 lg:w-96' src={PaperImage} alt='' />
+         </div>
          <div className='flex flex-col'>
             <div className='py-5'>
-               <h1 className='text-3xl font-semibold'>
+               <h1 className='text-3xl font-semibold lg:text-4xl'>
                   Tingkatkan kariermu ke level selanjutnya
                </h1>
             </div>
             <div className='flex flex-col gap-4'>
                <div className='flex gap-3'>
                   <div className='flex items-start gap-3'>
-                     <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full'>
+                     <span className='flex items-center justify-center w-10 h-10 font-bold text-white bg-green-900 rounded-full lg:text-lg'>
                         01
                      </span>
                   </div>
                   <div className='flex flex-col items-start pt-1 gap-y-1'>
-                     <h3 className='text-lg font-semibold text-green-950'>
+                     <h3 className='text-lg font-semibold lg:text-xl text-green-950'>
                         Banyak pilihan template
                      </h3>
-                     <p>
+                     <p className='lg:text-lg'>
                         Menyediakan berbagai template CV modern dan profesional.
                      </p>
                   </div>
