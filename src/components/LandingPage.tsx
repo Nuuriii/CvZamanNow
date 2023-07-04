@@ -1,7 +1,8 @@
 import Navbar from "./Navbar/Navbar";
 import GetStarted from "./GetStarted/GetStarted";
 import Opportunity from "./Opportunity/Opportunity";
-import ImproveCareer from "./Interesting/Interesting";
+import Interesting from "./Interesting/Interesting";
+import ImproveCareer from "./ImproveCareer/ImproveCareer";
 
 export default function LandingPage() {
    return (
@@ -10,6 +11,7 @@ export default function LandingPage() {
             <Navbar />
             <GetStarted />
             <Opportunity />
+            <Interesting />
             <ImproveCareer />
          </div>
       </div>
