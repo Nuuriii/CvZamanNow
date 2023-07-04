@@ -1,5 +1,5 @@
 import Navbar from "./Navbar/Navbar";
-import GettingStarted from "./Content1/Content1";
+import GetStarted from "./GetStarted/GetStarted";
 import Opportunity from "./Opportunity/Opportunity";
 
 export default function LandingPage() {
@@ -7,7 +7,7 @@ export default function LandingPage() {
       <div>
          <div className='lg:h-screen'>
             <Navbar />
-            <GettingStarted />
+            <GetStarted />
             <Opportunity />
          </div>
       </div>
