@@ -2,7 +2,7 @@ import PaperImage from "/img/Paper.svg";
 
 export default function ImproveCareer() {
    return (
-      <div className='pt-10 pb-6 px-7 sm:flex lg:justify-center sm:items-center sm:gap-8'>
+      <div className='pt-10 pb-28 px-7 sm:flex lg:justify-center sm:items-center sm:gap-8'>
          <div className='hidden md:flex lg:justify-center lg:w-1/2'>
             <img className='lg:h-96 lg:w-96' src={PaperImage} alt='' />
          </div>
