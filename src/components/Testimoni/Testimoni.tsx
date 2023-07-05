@@ -7,7 +7,7 @@ export default function Testimoni() {
       <div className='pt-8 pb-1 mt-10 bg-green-800 px-7 sm:flex sm:gap-5 sm:items-center lg:mb-16 lg:h-96 sm:pb-8'>
          <div className='relative flex justify-center bottom-20 sm:bottom-0 lg:top-10 sm:w-1/2'>
             <img
-               className='h-32 overflow-hidden rounded-md w-28 sm:h-72 lg:h-96 sm:w-full sm:ring-0 ring-2 ring-white'
+               className='h-32 overflow-hidden rounded-md w-28 sm:h-72 lg:h-96 lg:w-96 sm:w-full sm:ring-0 ring-2 ring-white'
                src={Customer}
                alt=''
             />
