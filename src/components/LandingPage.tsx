@@ -16,6 +16,7 @@ export default function LandingPage() {
             <Interesting />
             <ImproveCareer />
             <Testimoni />
+            <FaqComponent />
          </div>
       </div>
    );
