@@ -4,6 +4,7 @@ import Opportunity from "./Opportunity/Opportunity";
 import Interesting from "./Interesting/Interesting";
 import ImproveCareer from "./ImproveCareer/ImproveCareer";
 import Testimoni from "./Testimoni/Testimoni";
+import FaqComponent from "./FaqComponent/FaqComponent";
 
 export default function LandingPage() {
    return (
