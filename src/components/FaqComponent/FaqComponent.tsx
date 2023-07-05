@@ -3,8 +3,8 @@ import ArrowDown from "/img/ArrowDown.svg";
 
 export default function FaqComponent() {
    return (
-      <div className='flex flex-col py-20 px-7 md:flex-row md:items-start'>
-         <div className='flex flex-col gap-y-1 md:w-1/2'>
+      <div className='flex flex-col justify-center py-20 lg:px-16 px-7 md:flex-row md:items-start'>
+         <div className='flex flex-col gap-y-1 md:w-1/2 '>
             <h1 className='text-2xl font-bold lg:text-4xl'>
                Pertanyaan yang sering diajukan
             </h1>
@@ -13,8 +13,8 @@ export default function FaqComponent() {
                Ada pertanyaan? Kami di sini untuk membantu Anda.
             </p>
          </div>
-         <div className='py-5 md:py-0 md:w-1/2'>
-            <div className='py-2 border-b-2 border-gray-600'>
+         <div className='flex flex-col py-5 md:py-0 md:w-1/2 md:justify-center'>
+            <div className='py-2 border-b-2 border-gray-400 lg:pt-3 lg:pb-5'>
                <div className='flex items-center justify-between pb-2'>
                   <h3 className='text-lg font-medium lg:text-xl'>
                      Apakah informasi saya dalam CV aman?
@@ -30,7 +30,7 @@ export default function FaqComponent() {
                   </em>
                </p>
             </div>
-            <div className='py-2 border-b-2 border-gray-600'>
+            <div className='py-2 border-b-2 border-gray-400 lg:py-4'>
                <div className='flex items-center justify-between'>
                   <h3 className='text-lg font-medium lg:text-xl'>
                      Apakah saya bisa mengedit CV?
@@ -39,7 +39,7 @@ export default function FaqComponent() {
                </div>
                <p className='text-justify'></p>
             </div>
-            <div className='py-2 border-b-2 border-gray-600'>
+            <div className='py-2 border-b-2 border-gray-400 lg:py-4'>
                <div className='flex items-center justify-between'>
                   <h3 className='text-lg font-medium lg:text-xl'>
                      Bagaimana cara mengunduh CV?
@@ -48,7 +48,7 @@ export default function FaqComponent() {
                </div>
                <p className='text-justify'></p>
             </div>
-            <div className='py-2 border-b-2 border-gray-600'>
+            <div className='py-2 lg:py-4'>
                <div className='flex items-center justify-between'>
                   <h3 className='text-lg font-medium lg:text-xl'>
                      Apa saja yang perlu saya siapkan?
