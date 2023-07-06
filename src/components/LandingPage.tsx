@@ -5,6 +5,7 @@ import Interesting from "./Interesting/Interesting";
 import ImproveCareer from "./ImproveCareer/ImproveCareer";
 import Testimoni from "./Testimoni/Testimoni";
 import FaqComponent from "./FaqComponent/FaqComponent";
+import Footer from "./Footer/Footer";
 
 export default function LandingPage() {
    return (
@@ -17,6 +18,7 @@ export default function LandingPage() {
             <ImproveCareer />
             <Testimoni />
             <FaqComponent />
+            <Footer />
          </div>
       </div>
    );
