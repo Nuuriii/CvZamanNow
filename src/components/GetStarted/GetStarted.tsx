@@ -2,7 +2,7 @@ import Image from "/img/Handphone.svg";
 
 export default function Content1() {
    return (
-      <div className='flex flex-col items-center justify-center py-10 bg-green-700 px-7 lg:h-full sm:flex-row gap-y-5'>
+      <div className='flex flex-col items-center justify-center py-10 bg-green-800 px-7 lg:h-full sm:flex-row gap-y-5'>
          <div className='flex flex-col justify-center text-white gap-y-5 lg:gap-y-9 lg:w-1/2'>
             <h1 className='text-4xl font-bold lg:text-5xl'>
                Dapatkan Kesempatan{" "}
