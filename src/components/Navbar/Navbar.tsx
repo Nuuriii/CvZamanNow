@@ -6,7 +6,7 @@ function Navbar() {
    const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
    return (
-      <div className='flex items-center justify-between py-8 bg-green-700 border-b px-7 '>
+      <div className='flex items-center justify-between py-8 bg-green-800 border-b px-7 '>
          <a href='/'>
             <img src={Icon} alt='logo' />
          </a>
@@ -67,22 +67,32 @@ function Navbar() {
 
             <ul className='hidden space-x-8 text-white DESKTOP-MENU lg:flex'>
                <li>
-                  <Link to='/'>Beranda</Link>
+                  <Link className='hover:text-gray-300' to='/'>
+                     Beranda
+                  </Link>
                </li>
                <li>
-                  <Link to='/'>Tentang Kami</Link>
+                  <Link className='hover:text-gray-300' to='/'>
+                     Tentang Kami
+                  </Link>
                </li>
                <li>
-                  <Link to='/'>Buat CV</Link>
+                  <Link className='hover:text-gray-300' to='/'>
+                     Buat CV
+                  </Link>
                </li>
                <li>
-                  <Link to='/'>Surat Lamaran</Link>
+                  <Link className='hover:text-gray-300' to='/'>
+                     Surat Lamaran
+                  </Link>
                </li>
             </ul>
          </nav>
 
          <div className='hidden gap-5 text-white lg:flex'>
-            <button className='py-2 px-7 ring-2 ring-white'>Daftar</button>
+            <button className='py-2 px-7 ring-2 ring-white hover:bg-green-700 hover:font-semibold'>
+               Daftar
+            </button>
             <button>Masuk</button>
          </div>
          <style>{`
